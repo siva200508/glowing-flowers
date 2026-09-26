@@ -1,21 +1,4 @@
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;min-height:100vh;overflow:hidden;display:flex;align-items:flex-end;justify-content:center}
-.night{position:fixed;width:100%;height:100%;background:radial-gradient(ellipse at bottom,#1a1a00 0%, #000 70%)}
-.title{position:fixed;top:8%;left:50%;transform:translateX(-50%);color:#FFD700;font-family:cursive;font-size:6vmin;text-shadow:0 0 10px #FFD700, 0 0 20px #FFA500, 0 0 40px #FF8C00;z-index:100;animation: glow 2s ease-in-out infinite alternate}
-.flowers{position:relative;width:100%;height:100vh}
-.flower{position:absolute;bottom:0;animation: sway 4s ease-in-out infinite}
-.leafs{position:relative;animation: bloom 2s backwards; z-index:2}
-.leaf{position:absolute;bottom:0;left:50%;width:10vmin;height:12vmin;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;background:linear-gradient(to top,#FF8C00,#FFD700,#FFF8DC);box-shadow:0 0 15px #FFD700, inset 0 0 10px #fff;transform-origin:bottom center}
-.leaf:nth-child(1){transform:translate(-20%,5%) rotateY(-40deg) rotateX(-20deg)}
-.leaf:nth-child(2){transform:translate(-50%,0%) rotateX(10deg)}
-.leaf:nth-child(3){transform:translate(-80%,5%) rotateY(40deg) rotateX(-20deg)}
-.leaf:nth-child(4){width:8vmin;height:8vmin;transform:translate(-30%,20%) rotateX(70deg) rotate(-30deg);background:linear-gradient(to top,#FFA500,#FFD700)}
-.center{position:absolute;left:-4vmin;top:-2vmin;width:10vmin;height:6vmin;background:radial-gradient(circle,#FFF 0%, #FFD700 40%, #FF8C00 100%);border-radius:50%;box-shadow:0 0 20px #FFD700, 0 0 40px #FFA500;z-index:3}
-.stem{width:1.2vmin;height:55vmin;background:linear-gradient(to top,#0a4a0a,#1a8a1a);margin:0 auto;box-shadow:0 0 10px #1a8a1a;border-radius:1vmin;animation: grow 3s backwards}
-.sparkle{position:absolute;width:1vmin;height:1vmin;background:#FFD700;border-radius:50%;box-shadow:0 0 10px #FFD700, 0 0 20px #FFA500;animation: sparkle 3s linear infinite}
-.sparkle:nth-child(1){left:10%;top:20%;animation-delay:0s}
-.sparkle:nth-child(2){left:20%;top:10%;animation-delay:0.5s}
-.sparkle:nth-child(3){left:35%;top:25%;animation-delay:1s}
+ 
 .sparkle:nth-child(4){left:50%;top:15%;animation-delay:1.5s}
 .sparkle:nth-child(5){left:65%;top:20%;animation-delay:0.3s}
 .sparkle:nth-child(6){left:80%;top:10%;animation-delay:0.8s}
